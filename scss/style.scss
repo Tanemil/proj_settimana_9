@@ -1,0 +1,76 @@
+p{
+    font-size: 1vw;
+}
+
+.outer_border_smartphone{
+    width: 9*2vw;
+    height: 18*2vw;
+    background-color: black;
+    border-radius: 2.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 3rem;
+    .smartphone_display{
+        width: 9*1.8vw;
+        height: 18*1.5vw;
+        background-color: wheat;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        .display{
+            height: 40%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .tastierino{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            button{
+                height: 4vw;
+                width: 4vw;
+                border: none;
+                background-color: transparent;
+                font-size: 1.6vw;
+            }
+        }
+        .container_call{
+            button{
+                border: none;
+                background-color: green;
+                border-radius: 50%;
+                width: 3vw;
+                height: 3vw;
+                margin: 0.5rem 0;
+                i{
+                    font-size: 1.6vw;
+                }
+            }
+            .in_chiamata{
+                background-color: red;
+            }
+        }
+    }
+}
+
+.container_telefoni{
+    margin-top: 6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container_info{
+    display: none;
+    text-align: center;
+}
+
+.container_spiegazione{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

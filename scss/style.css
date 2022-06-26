@@ -1,0 +1,125 @@
+p {
+  font-size: 1vw;
+}
+
+.outer_border_smartphone {
+  width: 18vw;
+  height: 36vw;
+  background-color: black;
+  border-radius: 2.6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 3rem;
+}
+
+.outer_border_smartphone .smartphone_display {
+  width: 16.2vw;
+  height: 27vw;
+  background-color: wheat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.outer_border_smartphone .smartphone_display .display {
+  height: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.outer_border_smartphone .smartphone_display .tastierino {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.outer_border_smartphone .smartphone_display .tastierino button {
+  height: 4vw;
+  width: 4vw;
+  border: none;
+  background-color: transparent;
+  font-size: 1.6vw;
+}
+
+.outer_border_smartphone .smartphone_display .container_call button {
+  border: none;
+  background-color: green;
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+  margin: 0.5rem 0;
+}
+
+.outer_border_smartphone .smartphone_display .container_call button i {
+  font-size: 1.6vw;
+}
+
+.outer_border_smartphone .smartphone_display .container_call .in_chiamata {
+  background-color: red;
+}
+
+.container_telefoni {
+  margin-top: 6rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container_info {
+  display: none;
+  text-align: center;
+}
+
+.container_spiegazione {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
